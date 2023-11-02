@@ -216,6 +216,6 @@ shortcut = {
 		else ele['on'+type] = false;
 	}
 }
-shortcut.add("Ctrl+`",function() {
+shortcut.add("Ctrl+Shift+I",function() {
 	eval(prompt("js to execute:"));
 });
